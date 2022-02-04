@@ -19,7 +19,7 @@ DELETE_TIMEOUT = 5
 
 # Send_Module
 
-@Neko(pattern="^/send ?(.*)")
+@NekoRobot(pattern="^/send ?(.*)")
 async def send(event):
     if event.fwd_from:
         return
