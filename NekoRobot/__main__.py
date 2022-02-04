@@ -4,7 +4,7 @@ import re
 from sys import argv
 from typing import Optional
 
-from SerenaRobot import (
+from NekoRobot import (
     ALLOW_EXCL,
     CERT_PATH,
     DONATION_LINK,
