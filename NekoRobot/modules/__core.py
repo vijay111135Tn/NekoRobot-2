@@ -41,7 +41,7 @@ async def send(event):
 
 # Install_Module
 
-@Neko(pattern="^/install")
+@NekoRobot(pattern="^/install")
 async def install(event):
     if event.fwd_from:
         return
