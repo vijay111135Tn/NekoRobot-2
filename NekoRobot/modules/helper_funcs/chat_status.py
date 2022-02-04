@@ -403,6 +403,6 @@ def connection_status(func):
 
 
 # Workaround for circular import with connection.py
-from AsunaRobot.modules import connection
+from NekoRobot.modules import connection
 
 connected = connection.connected
