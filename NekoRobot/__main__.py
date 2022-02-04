@@ -25,12 +25,12 @@ from NekoRobot import (
 
 # needed to dynamically load modules
 # NOTE: Module order is not guaranteed, specify that in the config file!
-from SerenaRobot.modules import ALL_MODULES
-from SerenaRobot.modules.helper_funcs.chat_status import is_user_admin
-from SerenaRobot.modules.helper_funcs.misc import paginate_modules
+from NekoRobot.modules import ALL_MODULES
+from NekoRobot.modules.helper_funcs.chat_status import is_user_admin
+from NekoRobot.modules.helper_funcs.misc import paginate_modules
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
-from SerenaRobot.modules.helper_funcs.alternate import typing_action
-import SerenaRobot.modules.sql.users_sql as sql
+from NekoRobot.modules.helper_funcs.alternate import typing_action
+import NekoRobot.modules.sql.users_sql as sql
 from telegram.error import (
     BadRequest,
     ChatMigrated,
